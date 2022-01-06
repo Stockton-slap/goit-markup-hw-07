@@ -25,15 +25,15 @@
   background-color: rgba(255, 255, 255, 0.1);
 
   transition: background-color $transition-duration $transition-timing-function;
-}
 
-.media-box__item:nth-child(4) {
-  margin-right: 0;
-}
+  &:nth-child(4) {
+    margin-right: 0;
+  }
 
-.media-box__item:hover,
-.media-box__item:focus {
-  background-color: $accent-color;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 }
 
 .media-box__link {

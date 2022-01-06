@@ -13,15 +13,15 @@
   height: 92px;
 
   transition: border $transition-duration $transition-timing-function;
-}
 
-.clients__item:hover,
-.clients__item:focus {
-  border: 1px solid $accent-color;
-}
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+  }
 
-.clients__item:nth-child(6) {
-  margin-right: 0;
+  &:nth-child(6) {
+    margin-right: 0;
+  }
 }
 
 .clients__item:hover,

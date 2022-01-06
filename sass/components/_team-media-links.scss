@@ -17,21 +17,21 @@
   background-color: $hero-text-color;
 
   transition: background-color $transition-duration $transition-timing-function;
-}
 
-.media-links__item:nth-child(4) {
-  margin-right: 0;
-}
+  &:nth-child(4) {
+    margin-right: 0;
+  }
 
-.media-links__item:hover,
-.media-links__item:focus {
-  background-color: $accent-color;
-}
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 
-.media-links__item:hover,
-.media-links__item:focus {
-  .media-links__icon {
-    fill: $hero-text-color;
+  &:hover,
+  &:focus {
+    .media-links__icon {
+      fill: $hero-text-color;
+    }
   }
 }
 

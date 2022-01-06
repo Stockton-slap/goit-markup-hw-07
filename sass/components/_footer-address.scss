@@ -23,26 +23,26 @@
   text-decoration: none;
 
   transition: color $transition-duration $transition-timing-function;
-}
 
-.footer-address__link:hover,
-.footer-address__link:focus {
-  color: $accent-color;
-}
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 
-.footer-address--address {
-  color: $hero-text-color;
-  font-weight: 400;
-  font-size: 14px;
-  font-style: normal;
-  line-height: 1.71;
-}
+  &--address {
+    color: $hero-text-color;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+  }
 
-.footer-address--email,
-.footer-address--tel {
-  color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  &--email,
+  &--tel {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }

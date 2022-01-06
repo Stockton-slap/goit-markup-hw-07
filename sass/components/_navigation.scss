@@ -20,44 +20,34 @@
   display: flex;
 }
 
-.nav__list {
-  .nav__item:not(:last-child) {
-    margin-right: 50px;
-  }
+.nav__item:not(:last-child) {
+  margin-right: 50px;
 }
 
-.nav__list {
-  .nav__link {
-    color: $secondary-text-color;
-    text-decoration: none;
-    letter-spacing: 0.02em;
-    padding: 32px 0;
-    display: block;
+.nav__link {
+  color: $secondary-text-color;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  padding: 32px 0;
+  display: block;
 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 
-    transition: color $transition-duration $transition-timing-function;
-  }
-}
+  transition: color $transition-duration $transition-timing-function;
 
-.nav__list {
-  .nav__link:hover,
-  .nav__link:focus {
+  &:hover,
+  &:focus {
     color: $accent-color;
   }
 }
 
-.nav__list {
-  .nav__link.nav__current {
-    color: $accent-color;
-    position: relative;
-  }
-}
+.nav__link.nav__current {
+  color: $accent-color;
+  position: relative;
 
-.nav__list {
-  .nav__link.nav__current::after {
+  &::after {
     content: "";
     display: inline-block;
     width: 100%;

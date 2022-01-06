@@ -332,7 +332,7 @@ body {
   border: 1px solid #ececec;
 }
 
-.page-header .page-header--justify {
+.page-header--justify {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -369,11 +369,11 @@ body {
   display: flex;
 }
 
-.nav__list .nav__item:not(:last-child) {
+.nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav__list .nav__link {
+.nav__link {
   color: #212121;
   text-decoration: none;
   letter-spacing: 0.02em;
@@ -386,17 +386,16 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav__list .nav__link:hover,
-.nav__list .nav__link:focus {
+.nav__link:hover, .nav__link:focus {
   color: #2196f3;
 }
 
-.nav__list .nav__link.nav__current {
+.nav__link.nav__current {
   color: #2196f3;
   position: relative;
 }
 
-.nav__list .nav__link.nav__current::after {
+.nav__link.nav__current::after {
   content: "";
   display: inline-block;
   width: 100%;
@@ -440,8 +439,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.head-address__link:hover,
-.head-address__link:focus {
+.head-address__link:hover, .head-address__link:focus {
   color: #2196f3;
 }
 
@@ -743,15 +741,15 @@ body {
   padding-bottom: 94px;
 }
 
-.occupation__item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .occupation__item {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.occupation__item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .occupation__caption {
@@ -855,13 +853,11 @@ body {
   margin-right: 0;
 }
 
-.media-links__item:hover,
-.media-links__item:focus {
+.media-links__item:hover, .media-links__item:focus {
   background-color: #2196f3;
 }
 
-.media-links__item:hover .media-links__icon,
-.media-links__item:focus .media-links__icon {
+.media-links__item:hover .media-links__icon, .media-links__item:focus .media-links__icon {
   fill: #ffffff;
 }
 
@@ -906,8 +902,7 @@ body {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients__item:hover,
-.clients__item:focus {
+.clients__item:hover, .clients__item:focus {
   border: 1px solid #2196f3;
 }
 
@@ -968,8 +963,7 @@ body {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter__button:hover,
-.filter__button:focus {
+.filter__button:hover, .filter__button:focus {
   background-color: #2196f3;
   color: #ffffff;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -1005,21 +999,18 @@ body {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.projects__item:hover,
-.projects__item:focus {
+.projects__item:hover, .projects__item:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.projects__item:hover .projects__box::before,
-.projects__item:focus .projects__box::before {
+.projects__item:hover .projects__box::before, .projects__item:focus .projects__box::before {
   background-color: rgba(33, 150, 243, 0.9);
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
 
-.projects__item:hover .projects__text,
-.projects__item:focus .projects__text {
+.projects__item:hover .projects__text, .projects__item:focus .projects__text {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
@@ -1132,12 +1123,11 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-address__link:hover,
-.footer-address__link:focus {
+.footer-address__link:hover, .footer-address__link:focus {
   color: #2196f3;
 }
 
-.footer-address--address {
+.footer-address__link--address {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
@@ -1145,8 +1135,7 @@ body {
   line-height: 1.71;
 }
 
-.footer-address--email,
-.footer-address--tel {
+.footer-address__link--email, .footer-address__link--tel {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-weight: 400;
@@ -1199,8 +1188,7 @@ body {
   margin-right: 0;
 }
 
-.media-box__item:hover,
-.media-box__item:focus {
+.media-box__item:hover, .media-box__item:focus {
   background-color: #2196f3;
 }
 

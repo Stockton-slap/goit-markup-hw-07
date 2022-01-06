@@ -22,11 +22,11 @@
   align-items: center;
 
   transition: color $transition-duration $transition-timing-function;
-}
 
-.head-address__link:hover,
-.head-address__link:focus {
-  color: $accent-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .head-address__link:hover,

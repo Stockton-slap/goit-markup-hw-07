@@ -1,7 +1,7 @@
 .page-header {
   border: 1px solid #ececec;
 
-  .page-header--justify {
+  &--justify {
     display: flex;
     height: 80px;
     justify-content: space-between;
