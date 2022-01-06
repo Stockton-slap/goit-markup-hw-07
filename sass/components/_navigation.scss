@@ -16,17 +16,17 @@
   margin-top: 24px;
 }
 
-.nav__site-nav {
+.nav__list {
   display: flex;
 }
 
-.nav__site-nav {
-  .nav__list:not(:last-child) {
+.nav__list {
+  .nav__item:not(:last-child) {
     margin-right: 50px;
   }
 }
 
-.nav__site-nav {
+.nav__list {
   .nav__link {
     color: $secondary-text-color;
     text-decoration: none;
@@ -42,21 +42,21 @@
   }
 }
 
-.nav__site-nav {
+.nav__list {
   .nav__link:hover,
   .nav__link:focus {
     color: $accent-color;
   }
 }
 
-.nav__site-nav {
+.nav__list {
   .nav__link.nav__current {
     color: $accent-color;
     position: relative;
   }
 }
 
-.nav__site-nav {
+.nav__list {
   .nav__link.nav__current::after {
     content: "";
     display: inline-block;

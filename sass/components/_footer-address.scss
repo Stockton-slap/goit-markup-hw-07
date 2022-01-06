@@ -1,8 +1,8 @@
-.address-container {
+.address-box {
   margin-right: 70px;
 }
 
-.address-container__link {
+.address-box__link {
   color: $hero-text-color;
   font-family: Raleway, sans-serif;
   text-decoration: none;
@@ -15,7 +15,7 @@
   display: flex;
 }
 
-.footer-address__list {
+.footer-address__item {
   margin-bottom: 9px;
 }
 

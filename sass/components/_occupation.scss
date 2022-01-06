@@ -3,11 +3,11 @@
   padding-bottom: 94px;
 }
 
-.occupation__list:not(:last-child) {
+.occupation__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.occupation__list {
+.occupation__item {
   position: relative;
   display: flex;
 }

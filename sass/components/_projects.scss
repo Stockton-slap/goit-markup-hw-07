@@ -5,7 +5,7 @@
   width: inherit;
 }
 
-.projects__list {
+.projects__item {
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
@@ -15,23 +15,23 @@
   transition: box-shadow $transition-duration $transition-timing-function;
 }
 
-.projects__list:hover,
-.projects__list:focus {
+.projects__item:hover,
+.projects__item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.projects__list:hover,
-.projects__list:focus {
-  .projects__container::before {
+.projects__item:hover,
+.projects__item:focus {
+  .projects__box::before {
     background-color: rgba(33, 150, 243, 0.9);
 
     transform: translateY(0);
   }
 }
 
-.projects__list:hover,
-.projects__list:focus {
+.projects__item:hover,
+.projects__item:focus {
   .projects__text {
     transform: translateY(0);
   }
@@ -41,13 +41,13 @@
   cursor: pointer;
 }
 
-.projects__container {
+.projects__box {
   position: relative;
   overflow: hidden;
   background-color: rgba(33, 150, 243, 0.9);
 }
 
-.projects__container::before {
+.projects__box::before {
   position: absolute;
   top: 0;
   left: 0;
