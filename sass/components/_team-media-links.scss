@@ -22,10 +22,10 @@
   &:focus {
     background-color: $accent-color;
   }
-}
 
-.media-links__item:nth-child(4) {
-  margin-right: 0;
+  &:nth-child(4) {
+    margin-right: 0;
+  }
 }
 
 .media-links__item:hover,

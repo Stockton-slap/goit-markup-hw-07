@@ -30,10 +30,10 @@
   &:focus {
     background-color: $accent-color;
   }
-}
 
-.media-box__item:nth-child(4) {
-  margin-right: 0;
+  &:nth-child(4) {
+    margin-right: 0;
+  }
 }
 
 .media-box__link {
