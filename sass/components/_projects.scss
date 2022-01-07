@@ -19,21 +19,21 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
+}
 
-  &:hover,
-  &:focus {
-    .projects__box::before {
-      background-color: rgba(33, 150, 243, 0.9);
+.projects__item:hover,
+.projects__item:focus {
+  .projects__box::before {
+    background-color: rgba(33, 150, 243, 0.9);
 
-      transform: translateY(0);
-    }
+    transform: translateY(0);
   }
+}
 
-  &:hover,
-  &:focus {
-    .projects__text {
-      transform: translateY(0);
-    }
+.projects__item:hover,
+.projects__item:focus {
+  .projects__text {
+    transform: translateY(0);
   }
 }
 

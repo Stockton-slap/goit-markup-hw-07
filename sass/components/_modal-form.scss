@@ -32,10 +32,10 @@
     border: 1px solid $accent-color;
     outline: 0;
   }
+}
 
-  &:focus ~ .form__icon {
-    fill: $accent-color;
-  }
+.form__input:focus ~ .form__icon {
+  fill: $accent-color;
 }
 
 .form__icon {

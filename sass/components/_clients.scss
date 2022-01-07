@@ -18,10 +18,10 @@
   &:focus {
     border: 1px solid $accent-color;
   }
+}
 
-  &:nth-child(6) {
-    margin-right: 0;
-  }
+.clients__item:nth-child(6) {
+  margin-right: 0;
 }
 
 .clients__item:hover,

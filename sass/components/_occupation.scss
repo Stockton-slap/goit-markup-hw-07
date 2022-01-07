@@ -6,10 +6,10 @@
 .occupation__item {
   position: relative;
   display: flex;
+}
 
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
+.occupation__item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .occupation__caption {
