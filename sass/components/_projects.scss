@@ -1,4 +1,6 @@
 .projects {
+  @extend %no-marker;
+
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 94px;

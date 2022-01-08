@@ -12,6 +12,8 @@
 }
 
 .features {
+  @extend %no-marker;
+
   display: flex;
   padding-top: 94px;
 }

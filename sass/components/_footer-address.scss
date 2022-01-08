@@ -15,6 +15,14 @@
   display: flex;
 }
 
+.address-box__logo {
+  @extend %logo-span;
+}
+
+.footer-address {
+  @extend %no-marker;
+}
+
 .footer-address__item {
   margin-bottom: 9px;
 }

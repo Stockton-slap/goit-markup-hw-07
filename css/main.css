@@ -261,6 +261,28 @@ summary {
   display: list-item;
 }
 
+.nav__list, .head-address, .features, .occupation, .team, .clients, .projects, .footer-address, .media-box__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__logo, .address-box__logo {
+  color: #2196f3;
+  font-family: Raleway, sans-serif;
+}
+
+.media-box__title, .footer-form__title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
 body {
   background-color: #ffffff;
   color: #757575;
@@ -274,12 +296,6 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.no-marker {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .button {
@@ -308,24 +324,6 @@ body {
   margin: 0;
   padding-bottom: 50px;
   padding-top: 94px;
-}
-
-.nav__logo,
-.address-box__logo {
-  color: #2196f3;
-  font-family: Raleway, sans-serif;
-}
-
-.media-box__title,
-.footer-form__title {
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  padding: 0;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: #ffffff;
 }
 
 .page-header {
@@ -390,12 +388,12 @@ body {
   color: #2196f3;
 }
 
-.nav__link.nav__current {
+.nav__current {
   color: #2196f3;
   position: relative;
 }
 
-.nav__link.nav__current::after {
+.nav__current::after {
   content: "";
   display: inline-block;
   width: 100%;
@@ -1160,11 +1158,9 @@ body {
 }
 
 .media-box__list {
-  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  list-style: none;
 }
 
 .media-box__item {

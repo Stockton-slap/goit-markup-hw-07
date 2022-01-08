@@ -7,10 +7,14 @@
   margin-right: 93px;
 }
 
+.media-box__title {
+  @extend %footer-text;
+}
+
 .media-box__list {
-  padding: 0;
+  @extend %no-marker;
+
   display: flex;
-  list-style: none;
 }
 
 .media-box__item {

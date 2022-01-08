@@ -13,12 +13,6 @@ body {
   padding-right: 15px;
 }
 
-.no-marker {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 .button {
   height: 50px;
   width: 200px;
@@ -45,22 +39,4 @@ body {
   margin: 0;
   padding-bottom: 50px;
   padding-top: 94px;
-}
-
-.nav__logo,
-.address-box__logo {
-  color: $accent-color;
-  font-family: Raleway, sans-serif;
-}
-.media-box__title,
-.footer-form__title {
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  padding: 0;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-
-  color: $hero-text-color;
 }

@@ -1,4 +1,6 @@
 .occupation {
+  @extend %no-marker;
+
   display: flex;
   padding-bottom: 94px;
 }

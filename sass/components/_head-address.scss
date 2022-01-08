@@ -1,4 +1,6 @@
 .head-address {
+  @extend %no-marker;
+
   display: flex;
   margin-left: auto;
   align-items: center;

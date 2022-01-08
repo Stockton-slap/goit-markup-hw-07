@@ -16,7 +16,12 @@
   margin-top: 24px;
 }
 
+.nav__logo {
+  @extend %logo-span;
+}
+
 .nav__list {
+  @extend %no-marker;
   display: flex;
 }
 
@@ -43,7 +48,7 @@
   }
 }
 
-.nav__link.nav__current {
+.nav__current {
   color: $accent-color;
   position: relative;
 

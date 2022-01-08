@@ -1,4 +1,6 @@
 .clients {
+  @extend %no-marker;
+
   display: flex;
   justify-content: center;
   padding-bottom: 94px;
